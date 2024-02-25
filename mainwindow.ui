@@ -81,7 +81,7 @@
      <string>Убрать все функции</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="nagruzka">
+   <widget class="QCheckBox" name="load">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -140,7 +140,7 @@
      <string>Режим работы:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_nagruzka_const">
+   <widget class="QLabel" name="label_load_const">
     <property name="geometry">
      <rect>
       <x>390</x>
@@ -385,7 +385,7 @@
      <string>Ео</string>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider_nagruzka_point">
+   <widget class="QSlider" name="horizontalSlider_load_point">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -450,7 +450,7 @@
      <string>Ik:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_nagruzka_R">
+   <widget class="QLineEdit" name="lineEdit_load_R">
     <property name="geometry">
      <rect>
       <x>460</x>
@@ -460,7 +460,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_nagruzka_E">
+   <widget class="QLineEdit" name="lineEdit_load_E">
     <property name="geometry">
      <rect>
       <x>460</x>
@@ -470,7 +470,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_nagruzka">
+   <widget class="QCheckBox" name="checkBox_load">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -483,7 +483,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider_nagruzka_point_2">
+   <widget class="QSlider" name="horizontalSlider_load_point_2">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -548,7 +548,7 @@
      <string>Ib:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_nagruzka_const_3">
+   <widget class="QLabel" name="label_load_const_3">
     <property name="geometry">
      <rect>
       <x>390</x>
@@ -620,7 +620,7 @@
   <customwidget>
    <class>QCustomPlot</class>
    <extends>QWidget</extends>
-   <header location="global">../../qcustomplot.h</header>
+   <header location="global">qcustomplot.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
