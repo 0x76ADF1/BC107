@@ -6,7 +6,6 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainWindow w;
     w.setWindowTitle("Экспериментальное исследования статических характеристик биполярного транзистора");
-    //w.setWindowFlags();
     w.show();
     return a.exec();
 }
